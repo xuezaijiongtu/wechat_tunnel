@@ -80,6 +80,7 @@ npm start
 ### 1. 微信扫码登录
 
 打开浏览器访问 http://localhost:1999，页面会自动显示微信登录二维码。
+<img width="3024" height="1542" alt="login" src="https://github.com/user-attachments/assets/87137537-c7e7-4892-a228-d26c20790066" />
 
 使用微信扫描页面上的二维码，在手机上确认登录。扫码确认后系统自动跳转到聊天界面并启动消息轮询。
 
@@ -88,6 +89,8 @@ npm start
 ### 2. 聊天
 
 扫码成功后进入聊天界面：
+![1d72662601327d2fe03d1daf1aa79856](https://github.com/user-attachments/assets/1025f428-2ca4-43e6-a26d-d37196a1449f)
+<img width="2996" height="1502" alt="a8798ae4056944bcea7cfbf3430a4ef0" src="https://github.com/user-attachments/assets/7e5a2007-7acc-487f-ac5d-eda0fc40b4d5" />
 
 - **左侧会话列表**：显示所有与你聊天的微信用户，显示最后一条消息和未读数
 - **右侧消息区域**：点击会话查看聊天记录，支持表情显示
