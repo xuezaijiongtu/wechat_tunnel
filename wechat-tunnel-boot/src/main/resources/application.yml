@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: wechat-tunnel
+
+# Web 登录密码
+web:
+  password: ${WEB_PASSWORD:admin123}
+
+# 微信配置
+weixin:
+  base-url: https://ilinkai.weixin.qq.com
+  long-polling-timeout: 35000
+  bot-type: 3
+
+# 消息缓存配置
+cache:
+  message:
+    max-size-per-user: 50
+
+# WebSocket 配置
+websocket:
+  endpoint: /ws/chat
+  allowed-origins: "*"
+
+# 日志配置
+logging:
+  level:
+    com.xiaopeng.frd.wechat: DEBUG
